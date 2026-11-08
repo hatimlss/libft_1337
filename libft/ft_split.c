@@ -80,15 +80,3 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (fill_words(p, s, c));
 }
-
-// int main()
-// {
-//     char **p = ft_split("hello world", ' ');
-//     int i = 0;
-
-//     while (i < 2)
-//     {
-//         printf("%s\n", p[i++]);
-//     }
-//     free(p);
-// }

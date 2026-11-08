@@ -24,39 +24,3 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (c);
 }
-
-// int main(void)
-// {
-//     t_list  *node1;
-//     t_list  *node2;
-//     t_list  *node3;
-//     t_list  *lst;
-//     int     a = 10;
-//     int     b = 20;
-//     int     c = 30;
-
-//     node1 = malloc(sizeof(t_list));
-//     node2 = malloc(sizeof(t_list));
-//     node3 = malloc(sizeof(t_list));
-
-//     if (!node1 || !node2 || !node3)
-//         return (1);
-
-//     node1->content = &a;
-//     node2->content = &b;
-//     node3->content = &c;
-
-//     node1->next = node2;
-//     node2->next = node3;
-//     node3->next = NULL;
-
-//     lst = node1;
-
-//     printf("List size: %u\n", ft_lstsize(lst));
-
-//     free(node1);
-//     free(node2);
-//     free(node3);
-
-//     return (0);
-// }

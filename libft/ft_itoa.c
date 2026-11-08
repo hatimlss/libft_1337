@@ -54,12 +54,3 @@ char	*ft_itoa(int n)
 	}
 	return (p);
 }
-
-// int main()
-// {
-//     char *p;
-//     p = ft_itoa(1000);
-//     printf("%s", p);
-//     free(p);
-//     return (0);
-// }

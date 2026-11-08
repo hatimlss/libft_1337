@@ -38,11 +38,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return ((t * s));
 }
-
-#include <stdio.h>
-
-int main()
-{
-	int a = ft_atoi("32147483647");
-	printf("%d", a);
-}

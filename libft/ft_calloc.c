@@ -19,12 +19,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 
 	max = size * nmemb;
 	if (size == 0 || nmemb == 0)
-	{
-		p = malloc(1);
-		if(!p)
-			return(NULL);
-		return (p);
-	}
+		return (malloc(0));
 	if ((max / nmemb) != size)
 		return (NULL);
 	p = malloc(nmemb * size);

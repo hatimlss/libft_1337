@@ -53,13 +53,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	p[i] = '\0';
 	return (p);
 }
-
-// int main()
-// {
-//     char const *p = "yxhixy";
-//     char const *set = "xy";
-//     char *res = ft_strtrim(p, set);
-//     printf("%s\n", res);
-//     free(res);
-//     return (0);
-// }
